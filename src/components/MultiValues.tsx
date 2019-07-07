@@ -13,7 +13,7 @@ const MultiValues: React.FC = () => {
             <thead><th>Proyecto</th><th>Dias</th></thead>
             {model.map(  ({name, value})  => (
 
-              <tr><td>{name}</td><td>{value}</td></tr>
+              <tr><td>{name}</td><td> <input type="text" name="name" value={value} /></td></tr>
             ))}
         </table>
       </div>
